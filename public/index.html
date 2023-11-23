@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Title -->
+	<title>Bootstrap Assignment VarisRada & Marina Dela Paz INM320</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+	<link rel="stylesheet" href="/assets/css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+
+
+</head>
+
+
+<body>
+
+	<main>
+		<div class="container-fluid">
+			<section class="row">
+
+				<!-- Container 1 with the sidebar -->
+				<aside class="col-md-2 sidebar">
+					<nav class="navbar  navbar-dark ">
+						<a class="navbar-brand" href=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<h1>
+							<img src="assets/images/D.png" alt="Dashboard Kit Logo">
+							<circle></circle>
+							Dashboard Kit
+						</h1>
+						<!-- Sidebar links with icons -->
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+							<ul class="navbar-nav mr-auto">
+
+								<li class="nav-item active"><a href="#"><img src="assets/images/overview.png" alt="Overview Icon"> Overview</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/tickets.png" alt="Tickets Icon"> Tickets</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/ideas.png" alt="Ideas Icon"> Ideas</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/contacts.png" alt="Contacts Icon"> Contacts</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/agents.png" alt="Agents Icon"> Agents</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/articles.png" alt="Articles Icon"> Articles</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/settings.png" alt="Settings Icon"> Settings</a></li>
+								<li class="nav-item active"><a href="#"><img src="assets/images/subscription.png" alt="Subscription Icon"> Subscription</a></li>
+							</ul>	
+					</nav>
+				</aside>
+
+				<!-- Container 2 (10 columns) -->
+				<article class="col-md-10 content">
+
+					<!-- Row 1: "header" -->
+					<section class="row">
+						<div class="col-md-12 row1">
+
+							<h1>Overview</h1>
+
+							<a href="#">
+								<img src="assets/images/search.png" alt="Search Icon" id="search">
+								<img src="assets/images/notify.png" alt="Notifications' Icon" id="notify">
+								Jones Ferdinand
+								<img src="assets/images/jones.png" alt="Jones' Profile Pic" id="picture">
+							</a>
+
+						</div>
+					</section>
+
+					<!-- Row 2: Boxes -->
+					<section class="row2 container-fluid">
+
+						<div class="col-md-3 mb-4 mr-3">
+							<div class="box box1">
+								<p>Unresolved</p>
+								<h1>60</h1>
+							</div>
+						</div>
+						<div class="col-md-3 mb-4 mr-3">
+							<div class="box box2">
+								<p>Overdue</p>
+								<h1>16</h1>
+							</div>
+						</div>
+						<div class="col-md-3 mb-4 mr-3">
+							<div class="box box3">
+								<p>Open</p>
+								<h1>43</h1>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="box box4">
+								<p>On Hold</p>
+								<h1>64</h1>
+							</div>
+						</div>
+					</section>
+
+					<!-- Row 3: Graph -->
+					<section class="graph container-fluid">
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="leftpart">
+									<h1> Today's Trends</h1>
+									<p>as of 25 May 2019, 09:41 AM</p>
+									<img src="assets/images/graph.png" alt="Picture of Graph">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="rightpart">
+									<div class="box-b part1">
+										<div class="col-md-12">
+											<p>Resolved</p>
+											<h1>449</h1>
+										</div>
+									</div>
+									<div class="box-b part2">
+										<div class="col-md-12">
+											<p>Received</p>
+											<h1>426</h1>
+										</div>
+									</div>
+									<div class="box-b part3">
+										<div class="col-md-12">
+											<p>Average first response time</p>
+											<h1>33m</h1>
+										</div>
+									</div>
+									<div class="box-b part4">
+										<div class="col-md-12">
+											<p>Average response time</p>
+											<h1>3h 8m</h1>
+										</div>
+									</div>
+									<div class="box-b part5">
+										<div class="col-md-12">
+											<p>Resolution within SLA</p>
+											<h1>94%</h1>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</section>
+
+					<!-- Row 4: the two rectangles -->
+					<section class="rectangles container-fluid">
+
+						<div class="col-md-6 mt-4 mb-4">
+							<div class="rect rect1">
+
+								<h1>Unresolved Tickets</h1>
+								<h2>Group:<span> Support</span></h2>
+								<h3>View Details</h3>
+
+								<p>Waiting on Feature Request <span>4238</span></p>
+								<p>Awaiting Customer Response <span>1005</span></p>
+								<p>Awaiting Developer Fix <span>914</span></p>
+								<p id="lastp">Pending <span>281</span></p>
+
+							</div>
+						</div>
+						<div class="col-md-6 mt-4 mb-4">
+							<div class="rect rect2">
+
+								<h1>Tasks</h1>
+								<h2>Today</h2>
+								<h3>View all</h3>
+
+								<p><img src="assets/images/unchecked.png" alt="checkbox" class="checkbox" id="check">Create new
+									task <span><img src="assets/images/plus.png" alt="Plus Icon"></span></p>
+								<p><img src="assets/images/unchecked.png" alt="checkbox" class="checkbox" id="check">Finish ticket
+									update <span><img src="assets/images/urgent.png" alt="Urgent Icon"
+											class="icons"></span></p>
+								<p><img src="assets/images/unchecked.png" alt="checkbox" class="checkbox" id="check">Create new
+									ticket example <span><img src="assets/images/new.png" alt="New Icon"
+											class="icons"></span></p>
+								<p id="plast"><img src="assets/images/unchecked.png" alt="checkbox"
+										class="checkbox" id="check">Update ticket report <span><img src="assets/images/default.png"
+											alt="Default Icon" class="icons"></span></p>
+
+							</div>
+						</div>
+					</section>
+
+
+
+				</article>
+
+			</section>
+		</div>
+	</main>
+	<script src="js/swiped-events.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
